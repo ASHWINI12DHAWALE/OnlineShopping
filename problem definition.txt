@@ -1,0 +1,24 @@
+Problem Definition
+                 In any Ecommerce applications developer faces problems in programming 
+and assembling all the components in one page or diagram.and all this problem resolve 
+when we use Agine Methdology, creat use case Diagram etc.Ecomm application needs a
+perfect usecase diagram so that developer can easily make an application and synchronize 
+with application.
+
+
+
+ Fabrikam Multinational Company case study
+
+Functioanl Requirement-	user login,
+			user validation,
+			synchronization among the pages
+			session time,
+			payment mode	 
+
+Non Functioanl Requirement-	usablity,
+				performance,
+				relibility
+			
+
+
+  

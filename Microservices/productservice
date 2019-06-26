@@ -1,0 +1,20 @@
+var express = require('express');
+var app = express();
+
+var productController=function(req, res){
+  var products = [
+    {id:1, title:"Shirt",description:"Casual and party wear",quantity:50, unitprice:1100},
+    {id:2, title:"Pants",description:"casual wear,sports wear",quantity:50, unitprice:2000},
+    {id:3, title:"Tshirt",description:"casual wear,sports wear",quantity:20, unitprice:500},
+    {id:4, title:"Salwar kurta",description:"party wear,formal",quantity:30, unitprice:3000},
+   
+  ];
+  res.send(products);
+};
+
+app.get ('/products',productController);
+var server = app.listen(8086, function () {
+  var host = server.address().address
+  var port = server.address().port
+  console.log("listen to localhost:8086", host, port)
+})
